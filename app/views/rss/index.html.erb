@@ -1,5 +1,5 @@
 <div id="recent_episodes">
-  <h3>Nb1.hu hírek</h3>
+  <h3>NSO.hu hírek</h3>
   <%= link_to "Frissítés", update_path%>
   <ul>
   <% for entry in FeedEntry.all(:limit => 20, :order => "published_at desc") %>
